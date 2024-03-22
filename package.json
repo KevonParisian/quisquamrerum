@@ -1,0 +1,51 @@
+{
+  "name": "quisquamrerum",
+  "version": "1.0.0",
+  "description": "Full implementation of the `printf` family in pure JS.",
+  "keywords": [
+    "printf",
+    "formatting",
+    "sprintf",
+    "format",
+    "in",
+    "temporibus"
+  ],
+  "homepage": "https://github.com/KevonParisian/quisquamrerum.git",
+  "license": "MIT",
+  "author": "BradlyKemmer",
+  "maintainers": [],
+  "coffeelintConfig": {
+    "indentation": {
+      "level": "error",
+      "value": 2
+    },
+    "line_endings": {
+      "level": "error",
+      "value": "unix"
+    },
+    "max_line_length": {
+      "level": "ignore"
+    }
+  },
+  "main": "./lib/printf",
+  "types": "./lib/printf.d.ts",
+  "engines": {
+    "node": ">= 0.9.0"
+  },
+  "files": [
+    "/lib"
+  ],
+  "devDependencies": {
+    "coffeescript": "^2.2.4",
+    "should": "13.2.1",
+    "mocha": "5.1.0",
+    "semver": "5.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KevonParisian/quisquamrerum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KevonParisian/quisquamrerum.git/issues"
+  }
+}
